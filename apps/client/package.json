@@ -1,12 +1,13 @@
 {
-  "name": "web",
+  "name": "@thaitokana/client",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint src --max-warnings=0",
+    "format": "eslint src --fix"
   },
   "dependencies": {
     "next": "13.0.0",
@@ -16,6 +17,7 @@
     "wanakana": "^5.0.2"
   },
   "devDependencies": {
+    "@thaitokana/config": "workspace:0.0.0",
     "@babel/core": "^7.0.0",
     "@types/node": "^17.0.12",
     "@types/react": "^18.0.22",
