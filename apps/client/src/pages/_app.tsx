@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import "../styles/global.css";
+import "$styles/global.css";
 
 import Web from "./index";
 
