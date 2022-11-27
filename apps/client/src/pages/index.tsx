@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { Navbar } from "$core/components";
+import { Navbar, SwapLang } from "$core/components";
 
 import { Button } from "ui";
 import { toHiragana } from "wanakana";
@@ -32,8 +32,8 @@ export default function Web() {
   return (
     <div className="bg-red-100">
       <Navbar></Navbar>
-      <h1>Web</h1>
-      <Button />
+      <SwapLang></SwapLang>
+
       <input
         type="text"
         value={word}
