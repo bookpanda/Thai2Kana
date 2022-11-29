@@ -1,12 +1,13 @@
 import type { FC } from "react";
-import { useState } from "react";
 
 import XMarkIcon from "@heroicons/react/24/outline/XMarkIcon.js";
 
+import { useAppContext } from "$core/contexts/appContext";
 import "$styles/InputBox.module.css";
 
 export const InputBox: FC = () => {
-  const [text, setText] = useState<string>("");
+  const context = useAppContext();
+  const { text, setText } = context;
   return (
     <div className="relative w-screen">
       <div
@@ -25,7 +26,6 @@ export const InputBox: FC = () => {
           }}
         />
       )}
-      <p>{text}</p>
     </div>
   );
 };
