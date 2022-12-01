@@ -7,7 +7,7 @@ export const OutputBox: FC = () => {
   const { katakana } = context;
   return (
     <div
-      className={`w-screen md:w-1/2 min-h-36 p-4 outline-0 border-b border-gray-300 drop-shadow-md bg-blue-600 
+      className={`w-screen md:w-1/2 xl:rounded-br-lg min-h-36 p-4 lg:p-6 outline-0 border-b border-gray-300 drop-shadow-md bg-blue-600 
     ${
       katakana
         ? "md:bg-gray-100 md:text-black"

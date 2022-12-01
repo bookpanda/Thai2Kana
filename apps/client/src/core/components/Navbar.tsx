@@ -12,7 +12,6 @@ export const Navbar: FC = () => {
         <span className="text-red-500 mr-2">na</span>
         <span className="text-gray-500">Translate</span>
       </div>
-      <div className="w-screen h-14 border-b border-gray-300 bg-neutral-100" />
     </>
   );
 };
