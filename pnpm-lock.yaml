@@ -16,7 +16,7 @@ importers:
     specifiers:
       '@babel/core': ^7.0.0
       '@heroicons/react': ^2.0.13
-      '@thaitokana/config': workspace:0.0.0
+      '@thaitokana/config': workspace:*
       '@types/node': ^17.0.12
       '@types/react': ^18.0.22
       '@types/react-dom': ^18.0.7
@@ -132,7 +132,7 @@ importers:
       eslint: 7.32.0
       eslint-config-next: 13.0.0_77fvizpdb3y4icyeo2mf4eo7em
       eslint-config-prettier: 8.5.0_eslint@7.32.0
-      eslint-config-turbo: 0.0.4_eslint@7.32.0
+      eslint-config-turbo: 0.0.7_eslint@7.32.0
       eslint-plugin-react: 7.31.8_eslint@7.32.0
     devDependencies:
       typescript: 4.9.3
@@ -1514,13 +1514,13 @@ packages:
       eslint: 8.28.0
     dev: true
 
-  /eslint-config-turbo/0.0.4_eslint@7.32.0:
-    resolution: {integrity: sha512-HErPS/wfWkSdV9Yd2dDkhZt3W2B78Ih/aWPFfaHmCMjzPalh+5KxRRGTf8MOBQLCebcWJX0lP1Zvc1rZIHlXGg==}
+  /eslint-config-turbo/0.0.7_eslint@7.32.0:
+    resolution: {integrity: sha512-WbrGlyfs94rOXrhombi1wjIAYGdV2iosgJRndOZtmDQeq5GLTzYmBUCJQZWtLBEBUPCj96RxZ2OL7Cn+xv/Azg==}
     peerDependencies:
-      eslint: ^7.23.0 || ^8.0.0
+      eslint: '>6.6.0'
     dependencies:
       eslint: 7.32.0
-      eslint-plugin-turbo: 0.0.4_eslint@7.32.0
+      eslint-plugin-turbo: 0.0.7_eslint@7.32.0
     dev: false
 
   /eslint-import-resolver-node/0.3.6:
@@ -1809,10 +1809,10 @@ packages:
       - ts-node
     dev: true
 
-  /eslint-plugin-turbo/0.0.4_eslint@7.32.0:
-    resolution: {integrity: sha512-dfmYE/iPvoJInQq+5E/0mj140y/rYwKtzZkn3uVK8+nvwC5zmWKQ6ehMWrL4bYBkGzSgpOndZM+jOXhPQ2m8Cg==}
+  /eslint-plugin-turbo/0.0.7_eslint@7.32.0:
+    resolution: {integrity: sha512-iajOH8eD4jha3duztGVBD1BEmvNrQBaA/y3HFHf91vMDRYRwH7BpHSDFtxydDpk5ghlhRxG299SFxz7D6z4MBQ==}
     peerDependencies:
-      eslint: ^7.23.0 || ^8.0.0
+      eslint: '>6.6.0'
     dependencies:
       eslint: 7.32.0
     dev: false
