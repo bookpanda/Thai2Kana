@@ -1,7 +1,9 @@
 export async function fetchData(text: string) {
   text = text.replace(/[คฆฃฅ]/, "ก");
   text = text.replace(/[ผพภ]/, "ก");
-  return await fetch(`https://Thai2Rom.idhibhat-pankam.repl.co/?input=${text}`)
+  return await fetch(
+    `${process.env.NEXT_PUBLIC_THAITOROM as string}/?input=${text}`
+  )
     .then((response) => response.json())
     .then((data) => {
       let a = data.text;
