@@ -3,7 +3,7 @@ import type { FC } from "react";
 export const Navbar: FC = () => {
   return (
     <>
-      <div className="w-screen h-14 border-b border-gray-300 bg-white flex px-12 items-center text-lg font-semibold lg:h-16">
+      <div className="w-screen h-14 border-b border-gray-300 bg-white flex px-12 items-center text-lg md:text-xl font-semibold lg:h-16">
         <span className="text-blue-500">Th</span>
         <span className="text-red-500">ai</span>
         <span className="text-amber-500">2</span>
