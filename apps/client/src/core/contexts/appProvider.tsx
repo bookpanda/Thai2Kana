@@ -10,7 +10,7 @@ export const AppProvider: FC<PropsWithChildren> = ({ children }) => {
   const [text, setText] = useState("");
   const [katakana, setKatakana] = useState("");
   useEffect(() => {
-    fetchData(text).then((data) => setKatakana(toKatakana(data.text)));
+    fetchData(text).then((data) => setKatakana(toKatakana(data)));
   }, [text]);
   return (
     <AppContext.Provider value={{ text, katakana, setText }}>
