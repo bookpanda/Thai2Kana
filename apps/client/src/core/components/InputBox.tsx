@@ -3,7 +3,7 @@ import type { FC } from "react";
 import XMarkIcon from "@heroicons/react/24/outline/XMarkIcon.js";
 
 import { useAppContext } from "$core/contexts/appContext";
-import "$styles/InputBox.module.css";
+import "$styles/InputBox.module.scss";
 
 export const InputBox: FC = () => {
   const context = useAppContext();

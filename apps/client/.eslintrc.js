@@ -1,4 +1,7 @@
+// const base = require("@thaitokana/config/eslint-app.js");
+
 module.exports = {
-  extends: base.extends.concat(["next/core-web-vitals"]),
-  root: true,
+  // ...base,
+  extends: "next/core-web-vitals",
+  // extends: base.extends.concat(["next/core-web-vitals"]),
 };
